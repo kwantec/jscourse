@@ -12,4 +12,8 @@ Map.prototype.sayHi = function(){
     console.log('Hello Map');
 };
 
+Map.prototype.size = function(){
+    return 0;
+};
+
 module.exports = Map;

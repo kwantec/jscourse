@@ -15,11 +15,15 @@ describe("Map", function() {
     });
 
     it("should say hi", function() {
-        console.log('Running sayHi Test');
         myMap.sayHi();
-        fail('SIMULATE FAILURE');
-        console.log('SHOULD HAVE FAILED ALREADY');
+    });
+
+    it("initial size should be zero", function() {
+
+        expect( myMap.size ).toBeDefined();
+        expect( myMap.size() ).toEqual(0);
 
     });
+
 
 });
