@@ -5,7 +5,6 @@
 
 var Map = function(){
 
-    console.log('Created a new Map');
 };
 
 Map.prototype.sayHi = function(){
@@ -16,4 +15,7 @@ Map.prototype.size = function(){
     return 0;
 };
 
+Map.prototype.put = function(key, value){
+
+};
 module.exports = Map;
