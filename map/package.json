@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/kwantec/jscourse#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.1",
+    "jasmine-reporters": "^2.2.0"
   }
 }
