@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kwantec/jscourse/issues"
   },
-  "homepage": "https://github.com/kwantec/jscourse#readme"
+  "homepage": "https://github.com/kwantec/jscourse#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
