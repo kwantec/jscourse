@@ -15,14 +15,14 @@ gulp.task('default', function() {
 gulp.task('test', function() {
     gulp.src('spec/map/MapSpec.js')
     // gulp-jasmine works on filepaths so you can't have any plugins before it
-        .pipe(jasmine());
-        // .pipe(jasmine({
-        //     reporter: new reporters.TerminalReporter (
-        //         {
-        //             verbosity: 3,
-        //             color: true,
-        //             showStack: true
-        //         }
-        //     )
-        // }));
+        //.pipe(jasmine());
+        .pipe(jasmine({
+            reporter: new reporters.TerminalReporter (
+                {
+                    verbosity: 3,
+                    color: true,
+                    showStack: true
+                }
+            )
+        }));
 });

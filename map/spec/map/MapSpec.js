@@ -27,6 +27,7 @@ describe("Map", function() {
     it("put should set values and increment the size while get should retrieve values", function() {
 
         expect( myMap.put ).toBeDefined();
+        expect( myMap.get ).toBeDefined();
 
         var testValues = [
             {
@@ -52,7 +53,12 @@ describe("Map", function() {
             myMap.put( testValues[i].key,  testValues[i].value );
         }
 
-        expect( myMap.size() ).toEqual(3);
+        expect( myMap.size() ).toEqual(  testValues.length );
+
+        for(i = 0;i < testValues.length;i++)
+        {
+            expect( myMap.get( testValues[i].key ) ).toEqual( testValues[i].value ) ;
+        }
     });
 
 });
