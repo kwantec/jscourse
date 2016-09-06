@@ -1,0 +1,19 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "Javascript course excercise to create a Map library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwantec/jscourse.git"
+  },
+  "author": "Daniel Castañeda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwantec/jscourse/issues"
+  },
+  "homepage": "https://github.com/kwantec/jscourse#readme"
+}
