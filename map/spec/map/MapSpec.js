@@ -17,6 +17,8 @@ describe("Map", function() {
     it("should say hi", function() {
         console.log('Running sayHi Test');
         myMap.sayHi();
+        fail('SIMULATE FAILURE');
+        console.log('SHOULD HAVE FAILED ALREADY');
 
     });
 
